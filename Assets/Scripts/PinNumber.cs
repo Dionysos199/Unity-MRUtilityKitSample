@@ -21,14 +21,46 @@ public class PinNumber : MonoBehaviour
     {
         if (currentInput == secretPin)
         {
-            Debug.Log("✅ Correct PIN!");
-            //UnlockBriefcase(); // your method here
+            Debug.Log("Correct PIN!");
+            UnlockBriefcase(); // your method here
         }
         else
         {
-            Debug.Log("❌ Incorrect PIN!");
+            Debug.Log("Incorrect PIN!");
             //ResetInput(); // optional
         }
     }
 
+    [SerializeField] private HingeJoint hinge1;
+    public void UnlockBriefcase()
+    {
+
+
+        // Get current limits
+        JointLimits limits = hinge1.limits;
+
+        // Modify the max limit
+        limits.min = -120f; // for example, 90 degrees
+        // Optionally modify min too
+        // limits.min = -45f;
+
+        // Apply modified limits back
+        hinge1.limits = limits;
+    }
+    public void lockBrief()
+    {
+
+
+        // Get current limits
+        JointLimits limits = hinge1.limits;
+
+        // Modify the max limit
+        limits.max = 90f; // for example, 90 degrees
+
+        // Optionally modify min too
+        // limits.min = -45f;
+
+        // Apply modified limits back
+        hinge1.limits = limits;
+    }
 }
