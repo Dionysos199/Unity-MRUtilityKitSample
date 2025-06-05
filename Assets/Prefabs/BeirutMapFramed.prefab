@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3357567072593468173}
   - component: {fileID: 3325248404632225470}
   m_Layer: 0
-  m_Name: VH_Frame1
+  m_Name: BeirutMapFramed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,6 +67,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 446b2f5ebf576534a93b2a95a5434af8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 446b2f5ebf576534a93b2a95a5434af8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3284
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 446b2f5ebf576534a93b2a95a5434af8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 446b2f5ebf576534a93b2a95a5434af8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -88,11 +100,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 446b2f5ebf576534a93b2a95a5434af8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 446b2f5ebf576534a93b2a95a5434af8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 446b2f5ebf576534a93b2a95a5434af8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -106,10 +118,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 446b2f5ebf576534a93b2a95a5434af8, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 446b2f5ebf576534a93b2a95a5434af8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4d6ba4e6b87750d47b3ab5b086f63fc7, type: 2}
+      objectReference: {fileID: 2100000, guid: 7edb3b8e50de7184c8272fe81c3de9c0, type: 2}
     - target: {fileID: -7511558181221131132, guid: 446b2f5ebf576534a93b2a95a5434af8, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
